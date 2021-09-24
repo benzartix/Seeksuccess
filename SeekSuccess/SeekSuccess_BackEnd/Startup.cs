@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SeekSuccess_BackEnd.ConfigurationServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,7 @@ namespace SeekSuccess_BackEnd
         {
 
             services.AddControllers();
+            services.ConfigureCors();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SeekSuccess_BackEnd", Version = "v1" });
@@ -42,6 +44,13 @@ namespace SeekSuccess_BackEnd
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SeekSuccess_BackEnd v1"));
+            }
+            else
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SeekSuccess_BackEnd v1"));
+
             }
 
             app.UseHttpsRedirection();

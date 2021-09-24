@@ -27,3 +27,4 @@ C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\obj\Debug\net5.0\See
 C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\obj\Debug\net5.0\ref\SeekSuccess_BackEnd.dll
 C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\obj\Debug\net5.0\SeekSuccess_BackEnd.pdb
 C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\obj\Debug\net5.0\SeekSuccess_BackEnd.genruntimeconfig.cache
+C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\bin\Debug\net5.0\appsettings.Production.json
