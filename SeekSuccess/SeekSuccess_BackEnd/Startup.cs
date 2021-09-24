@@ -30,6 +30,9 @@ namespace SeekSuccess_BackEnd
 
             services.AddControllers();
             services.ConfigureCors();
+            services.ConfigureMySqlContext(Configuration);
+            services.ConfigureRepositoryWrapper();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SeekSuccess_BackEnd", Version = "v1" });

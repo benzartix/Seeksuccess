@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Contracts;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -11,17 +12,31 @@ namespace SeekSuccess_BackEnd.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        private readonly ILogger<WeatherForecastController> _logger;
+
+        private IRepositoryWrapper _repoWrapper;
+
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger , IRepositoryWrapper repoWrapper)
         {
             _logger = logger;
+            _repoWrapper = repoWrapper;
         }
+
+
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            var Account = _repoWrapper.Account.FindByCondition(x => x.LastName.Equals("Ahmed"));
+            var Country = _repoWrapper.Country.FindAll();
+            return new string[] { "value1", "value2" };
+        }
+
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()

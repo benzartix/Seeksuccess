@@ -1,4 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Contracts;
+using Entites;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +24,18 @@ namespace SeekSuccess_BackEnd.ConfigurationServices
             });
         }
 
+        public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
+        {
+            var connectionString = config["mysqlconnection:connectionString"];
+            services.AddDbContext<RepositoryContext>(o => o.UseInMemoryDatabase(connectionString));
+        }
+
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+        }
 
     }
+
+
 }

@@ -28,3 +28,10 @@ C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\obj\Debug\net5.0\ref
 C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\obj\Debug\net5.0\SeekSuccess_BackEnd.pdb
 C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\obj\Debug\net5.0\SeekSuccess_BackEnd.genruntimeconfig.cache
 C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\bin\Debug\net5.0\appsettings.Production.json
+C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\bin\Debug\net5.0\Entites.dll
+C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\bin\Debug\net5.0\Entites.pdb
