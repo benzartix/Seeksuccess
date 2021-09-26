@@ -1,0 +1,12 @@
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\bin\Debug\net5.0\MailingServices.deps.json
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\bin\Debug\net5.0\MailingServices.dll
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\bin\Debug\net5.0\ref\MailingServices.dll
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\bin\Debug\net5.0\MailingServices.pdb
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\obj\Debug\net5.0\MailingServices.csproj.AssemblyReference.cache
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\obj\Debug\net5.0\MailingServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\obj\Debug\net5.0\MailingServices.AssemblyInfoInputs.cache
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\obj\Debug\net5.0\MailingServices.AssemblyInfo.cs
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\obj\Debug\net5.0\MailingServices.csproj.CoreCompileInputs.cache
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\obj\Debug\net5.0\MailingServices.dll
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\obj\Debug\net5.0\ref\MailingServices.dll
+C:\Users\benza\source\repos\SeekSuccess\MailingServices\obj\Debug\net5.0\MailingServices.pdb

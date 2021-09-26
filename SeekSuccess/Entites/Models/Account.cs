@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entites.Models.Base;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -9,35 +10,28 @@ using System.Threading.Tasks;
 namespace Entites.Models
 {
     [Table("account")]
-    public class Account
+    public class Account : BaseModel
     {
 
         [Required(ErrorMessage = "Dob is required")]
         public DateTime Dob { get; set; }
 
         [Required(ErrorMessage = "FirstName is required")]
-        public string FirstName
-        {
-            get
-            {
-                return string.IsNullOrWhiteSpace(FirstName) ? string.Empty : FirstName;
-            }
-            set { FirstName = value; }
-        }
-
-
+        public string FirstName { get; set; }
+        
         [Required(ErrorMessage = "LastName is required")]
         public string LastName { get; set; }
+
+        public string AccountType { get; set; }
 
         [Required(ErrorMessage = "Country is required")]
         [ForeignKey(nameof(Country))]
         public Guid CountryId { get; set; }
 
         [Required(ErrorMessage = "Country is required")]
-        [ForeignKey(nameof(Country))]
+        [ForeignKey(nameof(Secteur))]
         public Guid SecteurId { get; set; }
 
-        public string AccountType { get; set; }
 
 
     }

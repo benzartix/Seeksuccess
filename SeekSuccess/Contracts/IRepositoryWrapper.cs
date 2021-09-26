@@ -8,9 +8,9 @@ namespace Contracts
 {
     public interface IRepositoryWrapper
     {
-        public IAccountRepository Account { get; set;}
-        public ICountryRepository Country { get; set; }
-        public ISecteurRepository Secteur { get; set; }
+        public IAccountRepository Account { get; }
+        public ICountryRepository Country { get; }
+        public ISecteurRepository Secteur { get; }
         void Save();
     }
 }

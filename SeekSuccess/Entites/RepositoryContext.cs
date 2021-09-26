@@ -10,10 +10,15 @@ namespace Entites
 {
     public class RepositoryContext : DbContext
     {
-        public RepositoryContext(DbContextOptions options)
+        public RepositoryContext()
+        {
+        }
+
+        public RepositoryContext(DbContextOptions<RepositoryContext> options)
             : base(options)
         {
         }
+
         public DbSet<Account> Account { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<Secteur> Secteurs { get; set; }
