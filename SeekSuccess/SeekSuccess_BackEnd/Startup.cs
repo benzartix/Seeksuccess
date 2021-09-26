@@ -34,7 +34,9 @@ namespace SeekSuccess_BackEnd
             services.ConfigureMySqlContext(Configuration);
             services.ConfigureRepositoryWrapper();
             services.ConfigureLoggerService();
-            
+            services.AddDatabaseDeveloperPageExceptionFilter();
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SeekSuccess_BackEnd", Version = "v1" });

@@ -20,7 +20,14 @@ namespace Entites
         }
 
         public DbSet<Account> Account { get; set; }
-        public DbSet<Country> Countries { get; set; }
-        public DbSet<Secteur> Secteurs { get; set; }
+        public DbSet<Country> Country { get; set; }
+        public DbSet<Secteur> Secteur { get; set; }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Country>().ToTable("Country");
+            modelBuilder.Entity<Secteur>().ToTable("Secteur");
+        }
     }
 }

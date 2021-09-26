@@ -2,6 +2,7 @@ C:\Users\benza\source\repos\SeekSuccess\Entites\bin\Debug\net5.0\Entites.deps.js
 C:\Users\benza\source\repos\SeekSuccess\Entites\bin\Debug\net5.0\Entites.dll
 C:\Users\benza\source\repos\SeekSuccess\Entites\bin\Debug\net5.0\ref\Entites.dll
 C:\Users\benza\source\repos\SeekSuccess\Entites\bin\Debug\net5.0\Entites.pdb
+C:\Users\benza\source\repos\SeekSuccess\Entites\obj\Debug\net5.0\Entites.csproj.AssemblyReference.cache
 C:\Users\benza\source\repos\SeekSuccess\Entites\obj\Debug\net5.0\Entites.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\benza\source\repos\SeekSuccess\Entites\obj\Debug\net5.0\Entites.AssemblyInfoInputs.cache
 C:\Users\benza\source\repos\SeekSuccess\Entites\obj\Debug\net5.0\Entites.AssemblyInfo.cs
@@ -9,4 +10,3 @@ C:\Users\benza\source\repos\SeekSuccess\Entites\obj\Debug\net5.0\Entites.csproj.
 C:\Users\benza\source\repos\SeekSuccess\Entites\obj\Debug\net5.0\Entites.dll
 C:\Users\benza\source\repos\SeekSuccess\Entites\obj\Debug\net5.0\ref\Entites.dll
 C:\Users\benza\source\repos\SeekSuccess\Entites\obj\Debug\net5.0\Entites.pdb
-C:\Users\benza\source\repos\SeekSuccess\Entites\obj\Debug\net5.0\Entites.csproj.AssemblyReference.cache

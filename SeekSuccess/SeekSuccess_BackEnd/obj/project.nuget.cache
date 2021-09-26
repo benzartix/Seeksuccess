@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "061Z2nNYGNMt7Om9Ydnd1Kp6MtI6z5fE2feaAKhJdCdxQ65TjCfOIRlBJQjbzvnj7bhIoyV7pf2+FQ5jIKpzEQ==",
+  "dgSpecHash": "4OCN1PIfigSOmNNJv00yyF62t30KsXN6o1qqt2+PeYIN5aEZ63xJm8bB5J57cIcr15FCCv6MynTPaNTGBcYlJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\benza\\source\\repos\\SeekSuccess\\SeekSuccess_BackEnd\\SeekSuccess_BackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benza\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\benza\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.10\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\benza\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\benza\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\benza\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

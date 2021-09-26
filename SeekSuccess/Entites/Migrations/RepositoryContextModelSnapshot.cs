@@ -79,7 +79,7 @@ namespace Entites.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Countries");
+                    b.ToTable("Country");
                 });
 
             modelBuilder.Entity("Entites.Models.Secteur", b =>
@@ -105,7 +105,7 @@ namespace Entites.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Secteurs");
+                    b.ToTable("Secteur");
                 });
 #pragma warning restore 612, 618
         }
