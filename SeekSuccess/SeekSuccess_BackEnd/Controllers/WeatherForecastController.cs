@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace SeekSuccess_BackEnd.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/Account")] // route recommander
     public class WeatherForecastController : ControllerBase
     {
         //private readonly ILogger<WeatherForecastController> _logger;
@@ -33,7 +33,7 @@ namespace SeekSuccess_BackEnd.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet("{id}")] // route recommander
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
