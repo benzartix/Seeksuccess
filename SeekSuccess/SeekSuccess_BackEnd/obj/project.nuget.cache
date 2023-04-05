@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LHdIwU9K+1l8F7O/QgS20ec9aZJTIj86F5Buxi3ta6vxY0CU+QlMLgcIS3ykSNPhYFro+o7beoq7R1NVA2Zpmw==",
+  "dgSpecHash": "tGdHbLthmgiFj6EsT1qx849rxxulgVQ9Egssg4BmBXlO5v05u+mCyfw+5MzNXWY/fItyZY0HfjdZAgsZtJNzbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\benza\\source\\repos\\SeekSuccess\\SeekSuccess_BackEnd\\SeekSuccess_BackEnd.csproj",
+  "projectFilePath": "C:\\BankProjet\\Dev\\Seeksuccess\\SeekSuccess\\SeekSuccess_BackEnd\\SeekSuccess_BackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benza\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\benza\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.10\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.10.nupkg.sha512",

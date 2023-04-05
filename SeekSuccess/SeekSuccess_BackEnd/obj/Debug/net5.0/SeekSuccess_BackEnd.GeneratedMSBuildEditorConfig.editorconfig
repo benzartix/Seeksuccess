@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = SeekSuccess_BackEnd
-build_property.ProjectDir = C:\Users\benza\source\repos\SeekSuccess\SeekSuccess_BackEnd\
+build_property.ProjectDir = C:\BankProjet\Dev\Seeksuccess\SeekSuccess\SeekSuccess_BackEnd\

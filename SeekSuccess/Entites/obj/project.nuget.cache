@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DDhZBwDlZrosvHEIq8Vq5dGWHsW8bx0gbMOEhCnLJzGKThJG+UKvmYQbPoGQue5cOx0pJbI7xnZefvxwjr2/lA==",
+  "dgSpecHash": "9lUaBV58DODRA6X2kF+vo4FwTR4jihnKJG+px5TfzOZmy181OZs/OwOKcD//bgtun2HEuOBrAPQcEEGTmLzBNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\benza\\source\\repos\\SeekSuccess\\Entites\\Entites.csproj",
+  "projectFilePath": "C:\\BankProjet\\Dev\\Seeksuccess\\SeekSuccess\\Entites\\Entites.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benza\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\benza\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

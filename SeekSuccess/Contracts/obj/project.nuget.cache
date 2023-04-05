@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AbubcyrHD9bYcycaylqlmA12VLoM79+t3M1RKWgk4VI8q2ojkJGWq4SLBsywZXlwj9n286usjnQuWlEq7nA9BQ==",
+  "dgSpecHash": "kKAaUuPcexXexp/AcWLYGgL0Enxw3Bg/2g4yUXHpGbDT+3LuvEH9lmHf0wAIcmZSsUPfaGSxzCpNEQny/feBfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\benza\\source\\repos\\SeekSuccess\\Contracts\\Contracts.csproj",
+  "projectFilePath": "C:\\BankProjet\\Dev\\Seeksuccess\\SeekSuccess\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benza\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\benza\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

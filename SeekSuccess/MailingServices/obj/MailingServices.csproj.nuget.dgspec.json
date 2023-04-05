@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benza\\source\\repos\\SeekSuccess\\MailingServices\\MailingServices.csproj": {}
+    "C:\\BankProjet\\Dev\\Seeksuccess\\SeekSuccess\\MailingServices\\MailingServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benza\\source\\repos\\SeekSuccess\\MailingServices\\MailingServices.csproj": {
+    "C:\\BankProjet\\Dev\\Seeksuccess\\SeekSuccess\\MailingServices\\MailingServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benza\\source\\repos\\SeekSuccess\\MailingServices\\MailingServices.csproj",
+        "projectUniqueName": "C:\\BankProjet\\Dev\\Seeksuccess\\SeekSuccess\\MailingServices\\MailingServices.csproj",
         "projectName": "MailingServices",
-        "projectPath": "C:\\Users\\benza\\source\\repos\\SeekSuccess\\MailingServices\\MailingServices.csproj",
+        "projectPath": "C:\\BankProjet\\Dev\\Seeksuccess\\SeekSuccess\\MailingServices\\MailingServices.csproj",
         "packagesPath": "C:\\Users\\benza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benza\\source\\repos\\SeekSuccess\\MailingServices\\obj\\",
+        "outputPath": "C:\\BankProjet\\Dev\\Seeksuccess\\SeekSuccess\\MailingServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
